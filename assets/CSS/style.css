@@ -1,0 +1,97 @@
+/*Portfolio Page*/
+
+/*First*/
+.first {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.first img {
+    width: 100%;
+}
+.wordgames {
+    position: absolute;
+    top: 60%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 5px;   
+    width: 100%;
+}
+/*Second*/
+.second {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.second img {
+    width: 100%;
+}
+.rpg {
+    position: absolute;
+    top: 60%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 5px;   
+    width: 100%;
+}
+/*Third*/
+.third {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.third img {
+    width: 100%;
+}
+.trivia {
+    position: absolute;
+    top: 60%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 5px;   
+    width: 100%;
+}
+/*Fourth*/
+.fourth {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.fourth img {
+    width: 100%;
+}
+.rutgers {
+    position: absolute;
+    top: 60%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 5px;   
+    width: 100%;
+}
+/*Fifth*/
+.fifth {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.fifth img {
+    width: 100%;
+}
+.rock {
+    position: absolute;
+    top: 60%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 5px;   
+    width: 100%;
+}

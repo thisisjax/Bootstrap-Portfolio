@@ -24,32 +24,32 @@ body::after {
     padding: 10px;
     margin: 20px auto 0px auto;
     background-color: rgba(255, 255, 255, .7);
-
 }
+
 /*About page*/
 .container {
     margin: 10px 0px 0px 10px;
-    ;
 }
-.page-header {
-    font-family: 'Quicksand', sans-serif;
+h1 {
+    font-family: 'Shadows Into Light Two', cursive;
+
 }
 #biopic {
     z-index: 2000;
     opacity: 100%;
+    border: 5px white;
     margin-top: 20px;
     box-shadow: 5px 5px 2px grey;
 }
 .p {
-    width: 450px;
     margin-left: 7px;
     text-align: justify;
-}
-.col-5 {
     font-family: 'Shadows Into Light Two', cursive;
+
 }
+
 .card-title {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Shadows Into Light Two', cursive;
 }
 .card-text {
     font-family: 'Shadows Into Light Two', cursive;
@@ -207,16 +207,9 @@ body::after {
     #wrapper {
         width: 100%;
     }
-    .wordgames {
-        width: 100%;
-    }
 }
-
 @media screen and (max-width: 640px) {
     #wrapper {
-        width: 100%;
-    }
-    .wordgames {
         width: 100%;
     }
 }
@@ -224,7 +217,16 @@ body::after {
     #wrapper {
         width: 320px;
     }
-    .wordgames {
-        width: 100%;
-    }
 }
+
+/*animation*/
+h1 {
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    0%   {background-color: white; left:0px; top:0px;}
+    25%  {background-color: whitesmoke; left:200px; top:0px;}
+    50%  {background-color: gray; left:200px; top:200px;}
+    75%  {background-color: whitesmoke; left:0px; top:200px;}
+    100% {background-color: white; left:0px; top:0px;}
